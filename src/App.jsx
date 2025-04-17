@@ -44,7 +44,7 @@ function App() {
               {todo.id}_{todo.name}_{todo.createdAt}
               <Link to={`/test/${todo.id}`}>
 
-              <button>Edit</button>
+              <button>แก้ไข</button>
               </Link>
               
 
